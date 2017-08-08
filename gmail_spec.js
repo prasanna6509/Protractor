@@ -11,7 +11,7 @@ it('test any', function(){
      
    
  var locat3=browser.driver.findElement(by.css('input[name="password"]'));
-  locat3.sendKeys('109e1a0227');
+  locat3.sendKeys('xyz');
 
    browser.driver.sleep(5000);
   var locat4=browser.driver.findElement(by.xpath("//*[text()='Next']"));
